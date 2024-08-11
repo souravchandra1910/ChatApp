@@ -20,4 +20,3 @@ Uses :
   <li><strong>HTML</strong></li>
   <li><strong>CSS</strong></li>
   </ul>
-
