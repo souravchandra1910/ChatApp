@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Silkscreen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.red::before,.green::before{
+  content: "*";
+
+}
+.red{
+  color: red;
+  font-weight: 500;
+}
+.green{
+  color:green;
+  font-weight: 500;
+}
+.outer-box {
+  width: 100vw;
+  height: 750px;
+  background: linear-gradient(to top left, #3eff78, #a8ffaf);
+}
+
+.inner-box {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 15px 40px;
+  background: linear-gradient(to top left, #ffffffff, #ffffff33);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #27a557;
+  z-index: 2;
+}
+
+.signup-header h1 {
+  font-size: 2 rem;
+  color: #212121;
+}
+
+.signup-header p {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.signup-body {
+  margin: 20px 0;
+}
+
+.signup-body p {
+  margin: 10px 0;
+}
+
+.signup-body p label {
+  display: block;
+  font-weight: bold;
+}
+
+.signup-body p input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #cccc;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.signup-body p input[type="submit"] {
+  background-color: #27a557;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover {
+  background-color: #27a557;
+}
+
+.signup-footer p {
+  color: #555;
+  text-align: center;
+}
+
+.signup-footer p a {
+  color: #27a557;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: linear-gradient(to top right, #ffffff33, #ffffffff);
+  position: absolute;
+}
+
+.c1 {
+  top: 100px;
+  left: 10%;
+}
+
+.c2 {
+  bottom: 200px;
+  right: 10%;
+}
+
+textarea {
+  padding: 5px;
+}
+
+.image {
+  text-align: center;
+  width: 120px;
+  height: 120px;
+}
+
+.container {
+  width: 100%;
+  background-color: #3eff78;
+}
+
+.post-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.box {
+  text-align: center;
+  width: 40%;
+  background-color: #7aeca6;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+
+.box>div {
+  margin-block: 5px;
+}
+
+.Home-image {
+  align-self: center;
+  width: 370px;
+  height: 350px;
+
+  img {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.text-center {
+  margin-block: 10px;
+  text-align: center;
+
+  input {
+    padding: 10px 30px;
+  }
+}
+
+.load-data:visited {
+  display: none;
+}
+
+#text {
+  padding: 10px 24px;
+  border-radius: 10px;
+}
+
+#submit {
+  padding: 10px 30px;
+  border-radius: 18px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+
+  .load-data {
+    margin-block: 10px;
+    padding: 10px;
+  }
+}
+
+.update-form {
+  display: none;
+}
+
+.dark-mode-body {
+
+  .container,
+  .outer-box {
+    background-color: #282525;
+    color: white;
+
+    .box,
+    .inner-box {
+      background-color: rgb(75 75 84);
+    }
+  }
+}
+
+.google-login {
+  width: 270px;
+  margin: 0 auto;
+
+  img {
+    display: inline-block;
+    width: 100%;
+  }
+}
